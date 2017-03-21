@@ -30,7 +30,7 @@ public class BoardController {
 	@RequestMapping(value = "/register" ,method = RequestMethod.GET)
 	public void registerGET(BoardVO board,Model model) throws Exception{
 		log.info("register get .....");
-		System.out.println("테");
+		System.out.println("테tmxmek");
 	}
 	
 	@RequestMapping(value = "/register" ,method = RequestMethod.POST)
